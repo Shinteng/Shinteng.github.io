@@ -73,6 +73,7 @@ body {
 .about {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 40px;
 }
 
@@ -83,7 +84,7 @@ body {
 .aboutIntro {
     color: white;
     position: relative;
-    padding: 20px;
+    padding: 20px 0px;
     flex: 1.5;
     font-family: 'Imprima', sans-serif;
 }
@@ -318,11 +319,6 @@ body {
         font-size: 30px;
     }
 
-    .about {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
     #work {
         flex-direction: column;
         margin: 20px;
@@ -367,11 +363,17 @@ body {
 
     #myskill h3 {
         font-size: 15px;
-        column-gap: 20%;
+    }
+
+    #myskill {
+        column-gap: 30%;
         flex-wrap: wrap;
     }
 
-    .title {
-        font-size: 20px;
+    #myskill div {
+        margin-top: 20px;
+
+        .title {
+            font-size: 20px;
+        }
     }
-}
