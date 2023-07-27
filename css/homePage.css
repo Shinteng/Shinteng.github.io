@@ -311,11 +311,6 @@ body {
 }
 
 @media screen and (max-width:680px) {
-
-    .logo {
-        margin-top: 20px;
-    }
-
     .others {
         display: flex;
         margin-top: 0px;
@@ -323,6 +318,7 @@ body {
 
     .others a {
         font-size: 15px;
+        padding: 10px;
     }
 
     #name {
