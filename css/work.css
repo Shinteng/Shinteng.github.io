@@ -28,7 +28,7 @@ body {
     font-size: 20px;
 }
 
-.nav a:hover {
+.others a:hover {
     background-color: white;
     color: black;
 }
@@ -138,9 +138,13 @@ body {
         flex-direction: column;
     }
 
+    .logo {
+        margin-top: 20px;
+    }
+
     .others {
         display: flex;
-        flex-wrap: wrap;
+        margin-top: 0px;
     }
 
     .work {
