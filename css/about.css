@@ -99,7 +99,7 @@ p {
 }
 
 #profile p {
-    color: #717070;
+    color: grey;
     margin: 40px;
 }
 
@@ -109,7 +109,7 @@ p {
 }
 
 #title {
-    color: #717070;
+    color: grey;
     font-size: 20px;
 }
 
