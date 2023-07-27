@@ -304,6 +304,10 @@ body {
         padding: 10px;
     }
 
+    .logo img {
+        padding-top: 10px;
+    }
+
     #name {
         margin: 0px 0px 0px 40px;
         font-size: 35px;
