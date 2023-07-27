@@ -74,22 +74,22 @@ body {
 
 .input {
     font-family: 'Imprima', sans-serif;
-    border: #3F3F3F solid 1px;
-    color: #3F3F3F;
+    border: grey solid 1px;
+    color: grey;
     margin-right: 40px;
     padding: 10px;
 }
 
 #message {
     font-family: 'Imprima', sans-serif;
-    border: #3F3F3F solid 1px;
-    color: #3F3F3F;
+    border: grey solid 1px;
+    color: grey;
     margin-right: 40px;
     padding: 10px 0px 100px 10px;
 }
 
 #text button {
-    background-color: #3F3F3F;
+    background-color: grey;
     color: white;
     padding: 10px;
 }
@@ -101,7 +101,7 @@ body {
 
 .footer {
     color: white;
-    background-color: #3F3F3F;
+    background-color: grey;
     margin-top: 100px;
     font-family: 'Inknut Antiqua', serif;
 }
