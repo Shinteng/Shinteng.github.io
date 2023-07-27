@@ -73,7 +73,6 @@ body {
 .about {
     display: flex;
     justify-content: center;
-    align-items: center;
     margin: 40px;
 }
 
@@ -96,7 +95,7 @@ body {
     margin: 0px;
     position: absolute;
     top: 0;
-    left: 10%;
+    left: 13%;
     font-family: 'Holtwood One SC', serif;
 }
 
@@ -119,6 +118,11 @@ body {
 
 #contact {
     display: flex;
+}
+
+#contact a {
+    text-decoration: none;
+    color: white;
 }
 
 #email {
@@ -349,7 +353,26 @@ body {
     }
 
     #number {
-        font-size: 30px;
+        font-size: 25px;
     }
 
+    #aboutname {
+        font-size: 25px;
+    }
+
+    #contact h2 {
+        font-size: 15px;
+    }
+
+    #contact a {
+        font-size: 15px;
+    }
+
+    #myskill h3 {
+        font-size: 15px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
 }
