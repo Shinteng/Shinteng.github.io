@@ -314,6 +314,11 @@ body {
         font-size: 30px;
     }
 
+    .about {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
     #work {
         flex-direction: column;
         margin: 20px;
