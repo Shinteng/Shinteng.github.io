@@ -115,23 +115,6 @@ body {
     color: #00C2FF;
 }
 
-#contact {
-    display: flex;
-}
-
-#contact a {
-    text-decoration: none;
-    color: white;
-}
-
-#email {
-    color: #908D8D;
-}
-
-#showcontact {
-    margin-top: 50px;
-}
-
 .part {
     color: white;
     margin-top: 100px;
