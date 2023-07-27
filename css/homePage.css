@@ -84,7 +84,7 @@ body {
 .aboutIntro {
     color: white;
     position: relative;
-    padding: 20px 0px;
+    padding: 20px;
     flex: 1.5;
     font-family: 'Imprima', sans-serif;
 }
@@ -375,7 +375,11 @@ body {
     }
 
     .title {
-        font-size: 18px;
+        font-size: 20px;
+    }
+
+    .aboutIntro {
+        padding: 20px 0px;
     }
 
 }
