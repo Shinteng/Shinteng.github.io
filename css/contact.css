@@ -163,6 +163,11 @@ body {
 
     #title {
         font-size: 35px;
+        line-height: 1;
+    }
+
+    #text h1 {
+        line-height: 1;
     }
 
     #text h3 {
