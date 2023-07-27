@@ -358,7 +358,7 @@ body {
 
     #myskill h3 {
         font-size: 15px;
-        padding: 10px;
+        column-gap: 20%;
         flex-wrap: wrap;
     }
 
