@@ -112,7 +112,6 @@ body {
 
 .aboutIntro a {
     font-size: 20px;
-    text-decoration: none;
     color: #00C2FF;
 }
 
@@ -131,7 +130,6 @@ body {
 
 #showcontact {
     margin-top: 50px;
-    text-decoration: underline;
 }
 
 .part {
