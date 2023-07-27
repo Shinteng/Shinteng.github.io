@@ -60,7 +60,7 @@ body {
     margin: 0px;
     position: absolute;
     top: 0;
-    left: 10%;
+    left: 15%;
     font-family: 'Holtwood One SC', serif;
 }
 
@@ -107,7 +107,7 @@ p {
 #contact {
     display: flex;
     margin: 40px;
-    justify-content: center;
+
 }
 
 #title {
