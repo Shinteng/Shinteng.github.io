@@ -55,6 +55,7 @@ body {
 
 #contact a {
     color: white;
+    text-decoration: none;
 }
 
 #leaveContact {
@@ -130,17 +131,18 @@ body {
 }
 
 @media screen and (max-width:680px) {
-    .nav {
-        flex-direction: column;
-    }
-
-    .logo {
-        margin-top: 20px;
-    }
-
     .others {
         display: flex;
-        margin-top: 0px;
+        margin-top: 10px;
+    }
+
+    .others a {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .logo img {
+        padding-top: 5px;
     }
 
     #contact {
@@ -157,6 +159,14 @@ body {
 
     #icon h3 {
         font-size: 10px;
+    }
+
+    #title {
+        font-size: 35px;
+    }
+
+    #text h3 {
+        margin-right: 0px;
     }
 
 }
