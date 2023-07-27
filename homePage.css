@@ -300,9 +300,7 @@ body {
     #ABOUT {
         display: none;
     }
-}
 
-@media screen and (max-width:800px) {
     .nav {
         flex-direction: column;
     }
@@ -323,5 +321,6 @@ body {
         margin-top: 0px;
     }
 
-
 }
+
+@media screen and (max-width:800px) {}
