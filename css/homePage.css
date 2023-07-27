@@ -103,7 +103,6 @@ body {
 #aboutname {
     text-align: center;
     font-size: 48px;
-    padding-top: 20px;
     font-family: 'Inknut Antiqua', serif;
 }
 
@@ -252,6 +251,11 @@ body {
 
 }
 
+#icon a {
+    color: white;
+    text-decoration: none;
+}
+
 #icon h1 {
     margin-bottom: 0px;
 }
@@ -304,17 +308,24 @@ body {
 
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:680px) {
     .nav {
         flex-direction: column;
     }
 
+    .others {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     #name {
         margin: 0px 40px;
+        font-size: 35px;
     }
 
     #web {
         margin: 0px 40px;
+        font-size: 40px;
     }
 
     #work {
@@ -323,6 +334,22 @@ body {
 
     .f {
         margin-top: 0px;
+    }
+
+    #icon h1 {
+        font-size: 25px;
+    }
+
+    #icon h3 {
+        font-size: 10px;
+    }
+
+    #box2 {
+        font-size: 10px;
+    }
+
+    #number {
+        font-size: 30px;
     }
 
 }
