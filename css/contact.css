@@ -53,6 +53,10 @@ body {
     margin-right: 30px;
 }
 
+#contact a {
+    color: white;
+}
+
 #leaveContact {
     color: white;
     display: flex;
@@ -106,6 +110,11 @@ body {
     margin-left: 40px;
     padding: 20px 0px;
 
+}
+
+#icon a {
+    color: white;
+    text-decoration: none;
 }
 
 #icon h1 {

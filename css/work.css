@@ -116,6 +116,11 @@ body {
 
 }
 
+#icon a {
+    color: white;
+    text-decoration: none;
+}
+
 #icon h1 {
     margin-bottom: 0px;
 }
