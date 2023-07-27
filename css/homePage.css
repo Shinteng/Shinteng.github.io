@@ -313,7 +313,7 @@ body {
 @media screen and (max-width:680px) {
     .others {
         display: flex;
-        margin-top: 0px;
+        margin-top: 10px;
     }
 
     .others a {
@@ -334,6 +334,11 @@ body {
     #work {
         flex-direction: column;
         margin: 20px;
+    }
+
+    .f {
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .f {
@@ -370,6 +375,7 @@ body {
 
     #myskill h3 {
         font-size: 15px;
+        padding: 10px;
         flex-wrap: wrap;
     }
 
